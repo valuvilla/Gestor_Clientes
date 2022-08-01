@@ -1,4 +1,4 @@
-# Gestor de clientes en Python
+# Gestor de clientes en Python para Ingeniería
 
 Repositorio del proyecto completo del curso de Python.
 
