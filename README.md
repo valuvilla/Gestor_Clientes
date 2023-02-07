@@ -7,7 +7,7 @@ Repositorio del proyecto completo del curso de Python.
 _Nota: Sólo incluye pytest para realizar pruebas unitarias._
 
 ```bash
-pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 ## Para probar el programa en modo gráfico
