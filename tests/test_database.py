@@ -9,7 +9,8 @@ import database as db
 
 class TestDatabase(unittest.TestCase):
 
-    def setUp(self):
+    def setUp(self): #Darle valores a la lista de clientes para hacer las pruebas
+        # Se ejecuta antes de cada test
         db.Clientes.lista = [
             db.Cliente('15J', 'Marta', 'Pérez'),
             db.Cliente('48H', 'Manolo', 'López'),
@@ -21,6 +22,7 @@ class TestDatabase(unittest.TestCase):
         cliente_inexistente = db.Clientes.buscar('99X')
         self.assertIsNotNone(cliente_existente)
         self.assertIsNone(cliente_inexistente)
+        # assercion, excepcion predeterminada
 
     def test_crear_cliente(self):
         nuevo_cliente = db.Clientes.crear('39X', 'Héctor', 'Costa')
