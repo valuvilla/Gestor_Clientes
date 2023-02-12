@@ -15,7 +15,7 @@ def iniciar():
         print("[3] Añadir un cliente   ")
         print("[4] Modificar un cliente")
         print("[5] Borrar un cliente   ")
-        print("[6] Cerrar el Gestor    ")
+        print("[6] Cerrar el Gestor    ") # CERRAR EL MANAGER
         print("========================")
 
         opcion = input("> ")
